@@ -1,0 +1,59 @@
+body {
+  background: #0b1220;
+  color: #e8f1f7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  margin: 0 0 30px;
+}
+
+.raster {
+  display: grid;
+  grid-template-columns: repeat(2, 420px);
+  gap: 40px;
+}
+
+.naam {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #5ee0e6;
+}
+
+.gevel {
+  position: relative;
+  width: 420px;
+}
+
+.gevel img {
+  width: 420px;
+  display: block;
+}
+
+.display {
+  position: absolute;
+  left: 33%;
+  top: 51%;
+  width: 20%;
+  height: 9%;
+  transform: skewY(18deg);
+  background: #48f3fd;
+  border-radius: 6px;
+  color: #08222b;
+  text-align: center;
+  padding-top: 3px;
+}
+
+#klok {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#weer {
+  font-size: 10px;
+  margin: 0;
+}
